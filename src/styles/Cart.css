@@ -1,1 +1,32 @@
-
+.cart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cart .header-container {
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .cart .header-container .header {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .cart .header-container .header .price {
+    width: 33%;
+    text-align: center;
+  }
+  .cart .header-container .header .total {
+    width: 33%;
+    text-align: center;
+  }
+  
+  .cart .header-container .header .quantity {
+    width: 33%;
+    text-align: center;
+  }
+  
