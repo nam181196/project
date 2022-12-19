@@ -1,1 +1,27 @@
-
+.productDetail {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .productDetail .container {
+    width: 70%;
+    display: flex;
+    margin-top: 80px;
+  }
+  .productDetail .container .images {
+    flex: 1;
+  }
+  .productDetail .container .information {
+    flex: 1;
+  }
+  .productDetail .main-image{
+    width: 90%;
+  }
+  .productDetail .list-images {
+  }
+  .productDetail .list-images img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
