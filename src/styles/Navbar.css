@@ -1,1 +1,34 @@
-
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #9966ff;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0 20px;
+  display: flex;
+  flex-grow: 1;
+}
+.menu-item {
+  padding: 10px 15px;
+  color: white;
+}
+.menu-item:hover {
+  background-color: #9933ff;
+  cursor: pointer;
+}
+.pre-last {
+  margin-right: auto;
+}
