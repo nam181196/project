@@ -1,1 +1,38 @@
+.footer {
+  position: absolute;
+  bottom: -300px;
+  width: 100vw;
+  background-color: #9966ff;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.footer h4 {
+  margin-bottom: 20px;
+}
+.footer ul {
+  padding: 0;
+}
+.footer ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
 
+.footer .container {
+  width: 80%;
+  display: flex;
+}
+
+.footer .our-stores {
+  width: 25%;
+}
+.footer .posts {
+  width: 25%;
+}
+
+.footer .support {
+  width: 25%;
+}
+.footer .contact {
+  width: 25%;
+}
