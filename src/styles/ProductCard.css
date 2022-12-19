@@ -1,1 +1,21 @@
-
+.productCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.productCard .image {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
+.productCard .name {
+ font-size: 20px;
+ margin: 10px 0px;
+ color: rgb(105, 104, 104);
+}
+.productCard .price {
+  font-size: 20px;
+  font-weight: 700;
+}
